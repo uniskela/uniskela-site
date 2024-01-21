@@ -4372,7 +4372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentlayer@npm:0.3.4, contentlayer@npm:^0.3.4":
+"contentlayer@npm:^0.3.4":
   version: 0.3.4
   resolution: "contentlayer@npm:0.3.4"
   dependencies:
@@ -4568,6 +4568,13 @@ __metadata:
   version: 4.0.1
   resolution: "data-uri-to-buffer@npm:4.0.1"
   checksum: 0d0790b67ffec5302f204c2ccca4494f70b4e2d940fea3d36b09f0bb2b8539c2e86690429eb1f1dc4bcc9e4df0644193073e63d9ee48ac9fce79ec1506e4aa4c
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "date-fns@npm:3.3.0"
+  checksum: ceaf3d93f1d95cb3d946da946e84a303ec9729f62a88b3eb280e7ec9a955b236540fffd6ab707cca9128e6fb6f30c13d974992333266b77a6f59a512e70c57ea
   languageName: node
   linkType: hard
 
@@ -8592,7 +8599,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-contentlayer@npm:0.3.4, next-contentlayer@npm:^0.3.4":
+"next-contentlayer@npm:^0.3.4":
   version: 0.3.4
   resolution: "next-contentlayer@npm:0.3.4"
   dependencies:
@@ -10950,8 +10957,9 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^6.1.0
     "@typescript-eslint/parser": ^6.1.0
     autoprefixer: ^10.4.13
-    contentlayer: 0.3.4
+    contentlayer: ^0.3.4
     cross-env: ^7.0.3
+    date-fns: ^3.3.0
     esbuild: 0.18.11
     eslint: ^8.45.0
     eslint-config-next: 14.0.3
@@ -10963,7 +10971,7 @@ __metadata:
     image-size: 1.0.0
     lint-staged: ^13.0.0
     next: 14.0.3
-    next-contentlayer: 0.3.4
+    next-contentlayer: ^0.3.4
     next-themes: ^0.2.1
     pliny: 0.1.6
     postcss: ^8.4.24
