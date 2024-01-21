@@ -1,17 +1,17 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Uniskela',
+  title: 'Uniskela Blog',
   author: 'Uniskela',
   headerTitle: 'Uniskela',
   description: 'Unleashing Unity, Unlearning Limits',
   language: 'en-au',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/uniskela/uniskela-site',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: '',
-  email: 'alex@uniskela.space',
+  email: 'hi@uniskela.life',
   github: 'https://github.com/uniskela',
   twitter: 'https://twitter.com/uniskela',
   facebook: 'https://facebook.com/uniskela',
@@ -42,7 +42,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: 'klaviyo',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the

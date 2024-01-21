@@ -7,12 +7,10 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Uniskela Blog',
+    description: `This is only the beginning. Uniskela is a blend of mindfulness-related blog posts and web development.`,
+    imgSrc: '/static/favicons/uniskela-logo-temp.jpg',
+    href: '/',
   },
   {
     title: 'The Time Machine',
