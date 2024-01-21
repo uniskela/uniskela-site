@@ -1,15 +1,15 @@
 interface Project {
-  title: string,
-  description: string,
-  href?: string,
-  imgSrc?: string,
+  title: string
+  description: string
+  href?: string
+  imgSrc?: string
 }
 
 const projectsData: Project[] = [
   {
     title: 'Uniskela Blog',
     description: `This is only the beginning. Uniskela is a blend of mindfulness-related blog posts and web development.`,
-    imgSrc: '/static/images/google.png',
+    imgSrc: '/static/favicons/uniskela-logo-temp.jpg',
     href: '/',
   },
   {
