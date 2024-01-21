@@ -1,0 +1,101 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "title": "avatar",
+          "name": "avatar",
+          "type": "string"
+        },
+        {
+          "title": "occupation",
+          "name": "occupation",
+          "type": "string"
+        },
+        {
+          "title": "email",
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "title": "twitter",
+          "name": "twitter",
+          "type": "string"
+        },
+        {
+          "title": "github",
+          "name": "github",
+          "type": "string"
+        },
+        {
+          "title": "facebook",
+          "name": "facebook",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "next",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.preview.host": "http://localhost:3000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "faq",
+      "path": "[[workspace]]/faq"
+    },
+    {
+      "title": "authors",
+      "path": "[[workspace]]/data/authors"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/data/blog"
+    }
+  ]
+}
