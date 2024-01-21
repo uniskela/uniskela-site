@@ -2335,6 +2335,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify/icons-line-md@npm:^1.2.30":
+  version: 1.2.30
+  resolution: "@iconify/icons-line-md@npm:1.2.30"
+  dependencies:
+    "@iconify/types": "*"
+  checksum: 029cd0b3f8f906be006418413cc409915ea99e4623209c54023c2499f56d8570a023653c4f05f6194caddf5ca75cf24ac0dcea8c72debba90e9c6282685229d3
+  languageName: node
+  linkType: hard
+
+"@iconify/icons-material-symbols@npm:^1.2.58":
+  version: 1.2.58
+  resolution: "@iconify/icons-material-symbols@npm:1.2.58"
+  dependencies:
+    "@iconify/types": "*"
+  checksum: 86c489b8bad06032e7ab95ba97ec1a7eb95f88efb2d2b0ca0849d94c28cc5aa1577bc4208c2568e7bcacca3974f5dc056f4c2536fc87cda2a8f43fd3487b5764
+  languageName: node
+  linkType: hard
+
+"@iconify/react@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "@iconify/react@npm:4.1.1"
+  dependencies:
+    "@iconify/types": ^2.0.0
+  peerDependencies:
+    react: ">=16"
+  checksum: 43b71a0eb4312cf0fa7412b568369e75b8a327b8b7d9fc3dce42b2d047326e39dd17541a8d915fb80b87b20a56eba1a9b52304410624b5814fdf3ad17da9196a
+  languageName: node
+  linkType: hard
+
+"@iconify/types@npm:*, @iconify/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@iconify/types@npm:2.0.0"
+  checksum: 029f58542c160e9d4a746869cf2e475b603424d3adf3994c5cc8d0406c47e6e04a3b898b2707840c1c5b9bd5563a1660a34b110d89fce43923baca5222f4e597
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -13825,6 +13861,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tailwind-nextjs-starter-blog@workspace:."
   dependencies:
+    "@iconify/icons-line-md": ^1.2.30
+    "@iconify/icons-material-symbols": ^1.2.58
+    "@iconify/react": ^4.1.1
     "@next/bundle-analyzer": 14.0.3
     "@sentry/nextjs": ^7.94.1
     "@svgr/webpack": ^8.0.1

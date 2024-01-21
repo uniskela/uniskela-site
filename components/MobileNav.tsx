@@ -3,6 +3,9 @@
 import { useState } from 'react'
 import Link from './Link'
 import headerNavLinks from '@/data/headerNavLinks'
+import { InlineIcon } from '@iconify/react'
+
+const IconComponent = (props) => <InlineIcon className="h-15 g-5 w-auto" {...props} />
 
 const MobileNav = () => {
   const [navShow, setNavShow] = useState(false)
@@ -56,15 +59,15 @@ const MobileNav = () => {
             </svg>
           </button>
         </div>
-        <nav className="fixed mt-8 h-full">
+        <nav className="fixed mt-12 h-full">
           {headerNavLinks.map((link) => (
             <div key={link.title} className="px-12 py-4">
               <Link
+                key={link.title}
                 href={link.href}
-                className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
-                onClick={onToggleNav}
+                className="font-small hidden text-gray-900 dark:text-gray-100 sm:block"
               >
-                {link.title}
+                {link.icon && <IconComponent icon={link.icon} />} {link.title}
               </Link>
             </div>
           ))}

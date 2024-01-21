@@ -1,5 +1,4 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -32,6 +31,11 @@
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
         },
         {
           "title": "Categories",
@@ -71,6 +75,11 @@
         {
           "title": "facebook",
           "name": "facebook",
+          "type": "string"
+        },
+        {
+          "title": "summary",
+          "name": "summary",
           "type": "string"
         }
       ]
