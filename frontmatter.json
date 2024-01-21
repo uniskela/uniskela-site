@@ -101,5 +101,6 @@
       "title": "blog",
       "path": "[[workspace]]/data/blog"
     }
-  ]
+  ],
+  "frontMatter.dashboard.openOnStart": true
 }

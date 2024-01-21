@@ -1,7 +1,6 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "frontMatter.dashboard.openOnStart": true,
   "cSpell.words": [
     "lastmod",
     "Transpiles"
